@@ -1,0 +1,107 @@
+.brandname{
+    background-color: rgb(0, 0, 0);
+    color: rgb(198, 198, 198);
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+}
+.brandname p{
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 4px;
+}
+.brandname a:hover{
+    color: rgb(248, 62, 62)!important;
+}  
+.nav-link:focus{
+    color: rgb(248, 62, 62)!important;
+}
+.brandname a{
+    letter-spacing: 2px;
+}
+.nav-item a:hover{
+    color: rgb(248, 62, 62);
+}
+body{
+    margin: 0;
+    background-color: black;
+}
+header hr{
+    color: rgb(132, 140, 140);
+    opacity: 1.25;
+}
+header{
+    background-color: black;
+}
+.nav-link{
+    color: white;
+}
+.navbar{
+    margin: auto;
+    color: white;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.hn p{
+    color: gray;
+    letter-spacing: -1px;
+    word-spacing: -1px;
+}
+.beans img{
+    height: 32.5vw;
+    width: 100%;
+}
+.icons{
+    height: 500px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+}
+.icons img{
+    width: 5dvh;
+}
+.copyright{
+    background-color: rgb(0, 0, 0);
+    color: rgb(121, 119, 119);
+    letter-spacing: -1px;
+    ;
+}
+.fs-5{
+    font-size: 1rem!important;
+}
+.copyright a{
+    color: white!important;
+}
+.myBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(251, 107, 107);
+    border-radius: 44px;
+    height: 44px;
+    width: 44px;
+    display: none;
+}
+.dropdown-menu{
+    background-color: rgb(45, 43, 43);
+}
+.dropdown-menu :hover{
+    background-color: rgb(45, 43, 43)!important;
+}
+.dropdown-item {
+    color: white!important;
+}
+.dropdown-menu a:hover{
+    color:  rgb(248, 62, 62)!important;
+}
+
+@media (max-width:990px) {
+    .beans img{
+        height: 50vw!important; 
+    }
+}
